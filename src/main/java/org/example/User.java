@@ -11,6 +11,9 @@ public class User {
         this.email = email;
     }
 
+    public User(String test) {
+    }
+
     public int getAge() {
         return age;
     }

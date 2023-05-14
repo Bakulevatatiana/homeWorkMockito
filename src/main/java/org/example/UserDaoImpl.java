@@ -7,8 +7,8 @@ public class UserDaoImpl implements UserDao {
 
     public UserDaoImpl() {
         this.users = Arrays.asList(
-                new User("Oleg", 45, "Oleg@mail.ru"),
-        new User("Anna", 65, "Anna@mail.ru"));
+                new User("Oleg", 45, "Oleg@mail.ru")
+        );
 
 
     }

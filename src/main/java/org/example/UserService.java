@@ -9,6 +9,10 @@ public class UserService {
         this.dao = dao;
     }
 
+    public static boolean checkUserExists(User test) {
+        return false;
+    }
+
     public boolean checkUserExist(User user){
        return dao.getUserByName(user.getName())!=null;
     }
