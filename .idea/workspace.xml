@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="396904b0-4127-42be-be39-987832c32264" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/UserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/UserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UserDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UserServiseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +57,15 @@
   }
 }</component>
   <component name="RunManager" selected="JUnit.UserServiceTest.checkIfUserExistFalse">
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homeWorkMockito" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserServiceTest.checkIfUserExistFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homeWorkMockito" />
       <option name="PACKAGE_NAME" value="" />
@@ -81,6 +89,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.UserServiceTest.checkIfUserExistFalse" />
+        <item itemvalue="JUnit.UserServiceTest" />
         <item itemvalue="JUnit.UserServiceTest.checkIfUserExistTrue" />
       </list>
     </recent_temporary>
@@ -104,7 +113,12 @@
       <workItem from="1683343715988" duration="361000" />
       <workItem from="1683439816573" duration="581000" />
       <workItem from="1683951311020" duration="8000" />
-      <workItem from="1684041093560" duration="942000" />
+      <workItem from="1684041093560" duration="1180000" />
+      <workItem from="1684151674907" duration="1451000" />
+      <workItem from="1684239740704" duration="2784000" />
+      <workItem from="1684324542296" duration="3895000" />
+      <workItem from="1684410533875" duration="3637000" />
+      <workItem from="1684495624414" duration="1842000" />
     </task>
     <task id="LOCAL-00001" summary="ДЗ">
       <created>1682820935166</created>
@@ -113,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682820935166</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ДЗ">
+      <created>1684047446798</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684047446798</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,16 +143,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ДЗ" />
     <option name="LAST_COMMIT_MESSAGE" value="ДЗ" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/UserServiceTest.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

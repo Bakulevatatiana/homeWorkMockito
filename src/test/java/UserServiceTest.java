@@ -21,25 +21,22 @@ public class UserServiceTest {
     private UserDao dao;
     @InjectMocks
     private UserService userService;
-    @Before
-    public void initMocks() {
-        MockitoAnnotations.initMocks(this);
-    }
-
-    @Test
-    public void checkIfUserExistTrue(){
-        when(dao.getUserByName("Oleg")).thenReturn(new User("Oleg"));
-        boolean userExists= UserService.checkUserExists(
-                new User ("Oleg"));
-
-        assertTrue(userExists);
 
 
-    }
+        @Test
+        public void checkIfUserExistTrue(){
+            when(dao.getUserByName("test")).thenReturn(new User("test"));
+            boolean userExists= UserService.checkUserExists(
+                    new User ("test"));
+            verify(dao,times(1)).getUserByName("test");
+            assertTrue(userExists);
+
+        }
 
     @Test
     public void checkIfUserExistFalse(){
-         when(dao.getUserByName("test")).thenReturn(null);
+
+        //when(dao.getUserByName("test")).thenReturn(null);
         boolean userExists= UserService.checkUserExists(
                 new User ("test"));
 
