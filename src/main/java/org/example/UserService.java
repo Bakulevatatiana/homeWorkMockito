@@ -3,7 +3,7 @@ package org.example;
 import javax.xml.namespace.QName;
 
 public class UserService {
-    private static  UserDao dao ;
+    private final   UserDao dao ;
 
     public UserService(UserDao dao) {
         this.dao = dao;

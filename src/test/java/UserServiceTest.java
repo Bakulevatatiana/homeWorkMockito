@@ -25,21 +25,17 @@ public class UserServiceTest {
 
         @Test
         public void checkIfUserExistTrue(){
-            when(dao.getUserByName("test")).thenReturn(new User("test"));
-            boolean userExists= UserService.checkUserExists(
-                    new User ("test"));
-            verify(dao,times(1)).getUserByName("test");
+            User user = new User("test", 2, "@mail.ru");
+            when(dao.getUserByName("test")).thenReturn(user);
+            boolean userExists = userService.checkUserExists(user);
+            verify(dao, times(1)).getUserByName("test");
             assertTrue(userExists);
-
         }
-
     @Test
-    public void checkIfUserExistFalse(){
-
-        //when(dao.getUserByName("test")).thenReturn(null);
-        boolean userExists= UserService.checkUserExists(
-                new User ("test"));
-
+    public void checkIfUserExistFalse() {
+        User user = new User("test", 2, "@mail.ru");
+        when(dao.getUserByName("test")).thenReturn(null);
+        boolean userExists = userService.checkUserExists(user);
         assertFalse(userExists);
     }
 
