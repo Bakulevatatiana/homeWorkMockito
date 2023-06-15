@@ -1,14 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="396904b0-4127-42be-be39-987832c32264" name="Changes" comment="" />
+    <list default="true" id="396904b0-4127-42be-be39-987832c32264" name="Changes" comment="ДЗ исправлено1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2Ob4Zr8G7NN9G9qiC3lCNpZzhDx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -21,9 +47,55 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/god1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.UserServiceTest.checkIfUserExistFalse">
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homeWorkMockito" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.checkIfUserExistFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homeWorkMockito" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserServiceTest" />
+      <option name="METHOD_NAME" value="checkIfUserExistFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.checkIfUserExistTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homeWorkMockito" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserServiceTest" />
+      <option name="METHOD_NAME" value="checkIfUserExistTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserServiceTest.checkIfUserExistFalse" />
+        <item itemvalue="JUnit.UserServiceTest" />
+        <item itemvalue="JUnit.UserServiceTest.checkIfUserExistTrue" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,7 +104,56 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681816009897</updated>
+      <workItem from="1681816012149" duration="1870000" />
+      <workItem from="1681902293973" duration="4577000" />
+      <workItem from="1682124603090" duration="588000" />
+      <workItem from="1682327863884" duration="7244000" />
+      <workItem from="1682772835376" duration="4286000" />
+      <workItem from="1682819652940" duration="1997000" />
+      <workItem from="1683168078308" duration="4061000" />
+      <workItem from="1683266797590" duration="3293000" />
+      <workItem from="1683343715988" duration="361000" />
+      <workItem from="1683439816573" duration="581000" />
+      <workItem from="1683951311020" duration="8000" />
+      <workItem from="1684041093560" duration="1180000" />
+      <workItem from="1684151674907" duration="1451000" />
+      <workItem from="1684239740704" duration="2784000" />
+      <workItem from="1684324542296" duration="3895000" />
+      <workItem from="1684410533875" duration="3637000" />
+      <workItem from="1684495624414" duration="1842000" />
+      <workItem from="1684497576529" duration="845000" />
+      <workItem from="1686456215582" duration="681000" />
     </task>
+    <task id="LOCAL-00001" summary="ДЗ">
+      <created>1682820935166</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682820935166</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ДЗ">
+      <created>1684047446798</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684047446798</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ДЗ исправлено">
+      <created>1684497820160</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684497820160</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ДЗ" />
+    <MESSAGE value="ДЗ исправлено" />
+    <option name="LAST_COMMIT_MESSAGE" value="ДЗ исправлено" />
   </component>
 </project>
