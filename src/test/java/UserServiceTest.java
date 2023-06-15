@@ -22,7 +22,6 @@ public class UserServiceTest {
     @InjectMocks
     private UserService userService;
 
-
         @Test
         public void checkIfUserExistTrue(){
             User user = new User("test", 2, "@mail.ru");
